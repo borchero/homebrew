@@ -1,8 +1,8 @@
 class Cuckoo < Formula
     desc "CLI Tool for GitLab CI and Kubernetes Deployments."
-    url "https://circle-artifacts.com/gh/borchero/cuckoo/27/artifacts/0/cuckoo.tar.gz"
-    sha256 "9799fb8f7bba39a2f9dfe3ca1eb58fbef4ddf6f6629e2e5985edf504f3c9b258"
-    version "0.4.0"
+    url "https://circle-artifacts.com/gh/borchero/cuckoo/29/artifacts/0/cuckoo.tar.gz"
+    sha256 "9e0d2a23911d409a81f8117311821fe4de0bfc273aab655014c21c165e77db46"
+    version "0.4.1"
 
     depends_on "go@1.14" => :build
 
